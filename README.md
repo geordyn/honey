@@ -1,4 +1,4 @@
-# Sample Salon Website - Responsive
+# SunnyVale Honey Mock Up Design
 This is a basic example of a responsive website I created intended for the use of SunnyVale Honey Producers from Dallas, Texas. [Here is their current website.](http://sunnyvalehoney.com/). This website has a total of three different views. I created the SunnyVale Honey Logo that you will see in the top left corner of the page.
 
 ## Technology
