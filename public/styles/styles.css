@@ -1,0 +1,235 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+body, html {
+  height: 100%;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto';
+  background: #fff;
+}
+#page {
+  z-index: 10;
+  position: relative;
+  opacity: 0;
+  margin-top: 20px;
+  background: #fff;
+  transition: all 1s 0.6s;
+}
+#page.displayed {
+  opacity: 1;
+  margin-top: 0;
+}
+p {
+  color: #666;
+  margin-bottom: 34px;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  color: #ccc;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
+a:hover {
+  opacity: 0.8;
+}
+.main-header {
+  width: 100%;
+  height: 140px;
+  line-height: 30px;
+  padding: 0 80px;
+  z-index: 100;
+  top: 0;
+}
+.sectionTitle {
+    border-bottom: 1px solid #FBB03B;
+    font-size: 2.2em;
+    font-weight: 100;
+    color: #666;
+}
+@media screen and (max-width: 720px) {
+  .main-header {
+    padding-left: 30px;
+  }
+  .main-header .btn {
+    font-family: sans-serif;
+    font-style: normal;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: url("https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-20.png") no-repeat;
+    right: 30px;
+    top: 50px;
+    line-height: 27px;
+    font-size: 20px;
+    color: #323232;
+    cursor: pointer;
+  }
+}
+.main-header img:hover {
+  opacity: 0.7;
+}
+.main-header .logo {
+  height: 100px;
+  margin-top: 25px;
+  float: left;
+  position: absolute;
+}
+.main-header .instagram-header-icon {
+  height: 15px;
+  margin-top: 8px;
+}
+.main-header .main-nav {
+  float: right;
+  position: relative;
+}
+@media screen and (max-width: 720px) {
+  .main-header .main-nav {
+    width: 100%;
+    top: 140px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #343638;
+    display: block;
+    transition: 0.3s ease-in-out;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+  .main-header .main-nav.open {
+    height: auto;
+    opacity: 1;
+  }
+}
+.main-header .main-nav li {
+  float: left;
+  list-style-type: none;
+}
+@media screen and (max-width: 720px) {
+  .main-header .main-nav li {
+    float: none;
+  }
+}
+.main-header .main-nav li a {
+  display: block;
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #000;
+  text-transform: uppercase;
+  border-bottom: 0;
+  padding-bottom: 0;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 720px) {
+  .main-header .main-nav li a {
+    line-height: 60px;
+    margin: 0;
+    color: #fff;
+    z-index: 10;
+    height: 60px;
+    transition: all 0.1s;
+  }
+  .main-header .main-nav li a:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    opacity: 1;
+  }
+}
+.main-header .main-nav li a:hover {
+  border-bottom: 1px solid #FBB03B;
+}
+@media screen and (max-width: 720px) {
+  .main-header .main-nav li a.selected {
+    border-bottom: 0;
+  }
+}
+.top-img {
+  width: 100%;
+  height: 500px;
+  background-color: #f3f3f3;
+  background-image: url("//c5.staticflickr.com/8/7710/26682037604_7e36e54349_k.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+
+
+.top-img-about {
+  width: 100%;
+  height: 500px;
+  background-color: #f3f3f3;
+  background-image: url("//c2.staticflickr.com/8/7329/27289263545_3c222df170_z.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.top-img-products {
+  width: 100%;
+  height: 500px;
+  background-color: #f3f3f3;
+  background-image: url("http://sunnyvalehoney.com/images/DSCN02222.JPG");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+@media screen and (max-width: 720px) {
+  .top-img {
+    height: 300px;
+  }
+}
+.main-content {
+  width: 70%;
+  margin: 120px auto;
+  text-align: justify;
+}
+@media screen and (max-width: 720px) {
+  .main-content {
+    padding: 0 30px;
+    width: auto;
+  }
+}
+.main-footer {
+  text-align: center;
+  background-color: #f3f3f3;
+  height: 80px;
+}
+.main-footer p {
+  font-size: 13px;
+  color: #aaa;
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-bottom: 0;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+}

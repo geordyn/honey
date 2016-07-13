@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="honey">
+
+<head>
+  <meta charset="utf-8">
+  <title>Local Honey</title>
+  <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+
+  <header class="main-header clearfix">
+    <div class="btn"></div>
+    <a ui-sref="home" title="Home"><img src="//c5.staticflickr.com/8/7700/27015767100_192d21c812_b.jpg" class="logo"></a>
+    <ul class="main-nav">
+      <li><a ui-sref="home" title="Home">Home</a></li>
+      <li><a ui-sref="about" title="Menu">About Us</a></li>
+      <li><a ui-sref="products" title="Gallery">Products</a></li>
+      <li><a href="http://batchgeo.com/map/432b50516ff1e418d140683c59982299" title="Contact">Locations</a></li>
+    </ul>
+  </header>
+  <!-- Header end -->
+
+    <ui-view></ui-view>
+
+  <footer class="main-footer">
+    <p>&copy; 2016 <a href="https://www.geordyn.com">Geordyn</a></p>
+  </footer>
+
+
+
+
+
+  <!-- //// CDNs //// -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
+  <script type="text/javascript" src="./js/js.js"></script>
+
+
+</body>
+
+</html>
