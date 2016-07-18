@@ -4,8 +4,8 @@ This is a basic example of a responsive website I created intended to replace Su
 ## Technology
 * AngularJS
 
-## Usage
-* Clone and run live-server
+## Live Site
+[Geordyn's Honey App](https://geordynsunnyvale.herokuapp.com/#/home)
 
 
 ## Known Issues
